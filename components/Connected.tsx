@@ -93,7 +93,7 @@ const Connected: FC = () => {
           <Text color="bodyText" fontSize="xl" textAlign="center">
           Each NFT is randomly generated and can be staked to earn 
             <Text as="b"> $1SP</Text> tokens <Text as="b">500🔥per day</Text>. 30 000
-            <Text as="b"> $1SP</Text> tokens to mint.
+            <Text as="b"> $1SP</Text> tokens to mint.<br />
             <Text as="b">Launch 2022.12.27 20:00:00 UTC.</Text>
           </Text>
         </VStack>
