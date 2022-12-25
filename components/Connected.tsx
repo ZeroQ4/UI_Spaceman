@@ -106,7 +106,7 @@ const Connected: FC = () => {
         <Image boxSize={250} borderRadius={10} opacity={0.9} src="avatar4.png" alt="" />
         
       </HStack>
-
+      <HStack spacing={10}>
       <Button
         bgColor="accent"
         color="white"
@@ -119,6 +119,19 @@ const Connected: FC = () => {
           <ArrowForwardIcon />
         </HStack>
       </Button>
+      <Button
+        bgColor="accent"
+        color="white"
+        maxW="380px"
+        onClick={() => { window.location.assign('https://jup.ag/swap/USDC-1SP'); }}
+        
+      >
+        <HStack>
+          <Text>BUY $1SP</Text>
+          <ArrowForwardIcon />
+        </HStack>
+      </Button>
+      </HStack>
     </VStack>
   );
 };
