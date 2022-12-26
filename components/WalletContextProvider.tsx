@@ -4,7 +4,7 @@ import {
   WalletProvider,
 } from "@solana/wallet-adapter-react"
 import { WalletModalProvider } from "@solana/wallet-adapter-react-ui"
-import { clusterApiUrl } from "@solana/web3.js"
+import {} from "@solana/web3.js"
 import { 
   PhantomWalletAdapter, 
   SolflareWalletAdapter, 
@@ -22,6 +22,10 @@ import {
   } from "@solana/wallet-adapter-wallets"
 import { useMemo } from "react"
 import { WalletAdapterNetwork } from "@solana/wallet-adapter-base"
+
+//my
+import { clusterApiUrl } from "../components/cluster"
+
 require("@solana/wallet-adapter-react-ui/styles.css")
 
 const WalletContextProvider: FC<{ children: ReactNode }> = ({ children }) => {
