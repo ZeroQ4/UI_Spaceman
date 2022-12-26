@@ -87,7 +87,7 @@ const Connected: FC = () => {
             noOfLines={1}
             textAlign="center"
           >
-            Welcome Spacman.
+            Welcome Spaceman.
           </Heading>
 
           <Text color="bodyText" fontSize="xl" textAlign="center">
