@@ -71,7 +71,7 @@ const NewMint: NextPage<NewMintProps> = ({ mint }) => {
           bgColor="accent"
           color="white"
           maxW="380px"
-          onClick={() => { window.location.assign('https://stake.1space.me/'); }}
+          onClick={() => { window.location.assign('https://spaceman-stake.1space.me/'); }}
         >
           <HStack>
             <Text>STAKE MY SPACEMAN</Text>
