@@ -1,11 +1,11 @@
 const endpoint = {
     http: {
-      devnet: 'https://rpc.ankr.com/solana',
+      devnet: 'https://compatible-crimson-darkness.solana-mainnet.discover.quiknode.pro/5d2b42bea577b9f83bab8cbd1ab629a7648a97ac/',
       testnet: 'http://api.testnet.solana.com',
       'mainnet-beta': 'http://api.mainnet-beta.solana.com/',
     },
     https: {
-      devnet: 'https://rpc.ankr.com/solana',
+      devnet: 'https://compatible-crimson-darkness.solana-mainnet.discover.quiknode.pro/5d2b42bea577b9f83bab8cbd1ab629a7648a97ac/',
       testnet: 'https://api.testnet.solana.com',
       'mainnet-beta': 'https://api.mainnet-beta.solana.com/',
     },
