@@ -1,11 +1,11 @@
 const endpoint = {
     http: {
-      devnet: 'https://solana-api.syndica.io/access-token/d3KZa1fg1Eyg9QAu9nVxRj6ohfqr2WHcfCa6ghPsenrCJoJrgwSxocLYOfyNQkyt/rpc',
+      devnet: 'https://rpc.ankr.com/solana',
       testnet: 'http://api.testnet.solana.com',
       'mainnet-beta': 'http://api.mainnet-beta.solana.com/',
     },
     https: {
-      devnet: 'https://solana-api.syndica.io/access-token/d3KZa1fg1Eyg9QAu9nVxRj6ohfqr2WHcfCa6ghPsenrCJoJrgwSxocLYOfyNQkyt/rpc',
+      devnet: 'https://rpc.ankr.com/solana',
       testnet: 'https://api.testnet.solana.com',
       'mainnet-beta': 'https://api.mainnet-beta.solana.com/',
     },
