@@ -66,7 +66,7 @@ const NewMint: NextPage<NewMintProps> = ({ mint }) => {
         </Container>
 
         <Image boxSize='300px' opacity='0.97' borderRadius='10' objectFit='cover' src={metadata?.image ?? ""} alt="" />
-
+        <HStack>
         <Button
           bgColor="accent"
           color="white"
@@ -78,6 +78,18 @@ const NewMint: NextPage<NewMintProps> = ({ mint }) => {
             <ArrowForwardIcon />
           </HStack>
         </Button>
+        <Button
+          bgColor="accent"
+          color="white"
+          maxW="380px"
+          onClick={() => { window.location.assign('https://spaceman.1space.me/'); }}
+        >
+          <HStack>
+            <Text>I NEED MORE!</Text>
+            <ArrowForwardIcon />
+          </HStack>
+        </Button>
+        </HStack>
       </VStack>
     </MainLayout>
   );
